@@ -1,0 +1,17 @@
+def metodoSeleccion(lista):
+    if(type(lista) == list):
+        for i in range(0, len(lista)):
+            minimo = i
+            for j in range(i + 1, len(lista)):
+                if(lista[j] < lista[minimo]):
+                    minimo = j
+            if(i != minimo):
+                auxiliar = lista[i]
+                lista[i] = lista[minimo]
+                lista[minimo] = auxiliar
+    else:
+        print("Se necesita una lista para funcionar el algoritmo")
+
+
+if() ---> 1
+  for i in range(0,len()) ---> 1+1+

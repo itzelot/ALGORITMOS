@@ -1,0 +1,18 @@
+Ejercicio 1
+Entrada: s
+Salida: grande
+maxi(s):
+	grande=s[0]
+	for i in s
+		if(s[i] > grande):
+			grande = s[i]
+
+
+Ejercicio 2
+Entrada: n
+Salida: chico
+miniNombre(n):
+    chico = len(n[0])
+    for i in n:
+        if(len(n[i]) < chico):
+            chico = len(n[i])
